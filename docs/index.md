@@ -24,9 +24,9 @@ title: 介绍
 
 ### 安装增强工具(虚拟机)
 
-    ```bash
-    sudo apt install -y open-vm-tools open-vm-tools-desktop
-    ```
+```bash
+sudo apt install -y open-vm-tools open-vm-tools-desktop
+```
 
 ## [机器人操作系统](http://wiki.ros.org/cn/melodic/Installation/Ubuntu)
 

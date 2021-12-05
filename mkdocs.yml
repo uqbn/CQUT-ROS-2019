@@ -1,6 +1,6 @@
-site_name: 机器人操作系统实验
+site_name: 机器人操作系统
 # site_url:
-site_description: 机器人操作系统实验
+site_description: 机器人操作系统实验课
 site_author: '11912060110'
 # site_favicon: favicon
 copyright: Copyright (C) 11912060110
@@ -14,7 +14,7 @@ copyright: Copyright (C) 11912060110
 
 docs_dir: docs
 site_dir: site
-dev_addr: 127.0.0.1:8080
+dev_addr: 0.0.0.0:8080
 
 #https://facelessuser.github.io/pymdown-extensions/extensions
 markdown_extensions:
@@ -124,8 +124,8 @@ plugins:
       # ordered_chapter_level: 2
       #
       render_js: true
-      # headless_chrome_path: chromium
-      headless_chrome_path: C:/Program Files/Chromium/Application/chrome.exe
+      headless_chrome_path: chromium
+      # headless_chrome_path: C:/Program Files/Chromium/Application/chrome.exe
       #
       output_path: index.pdf
       enabled_if_env: ENABLE_PDF_EXPORT
@@ -136,16 +136,10 @@ plugins:
       # verbose: true
 
 extra:
-  #https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer
   generator: false
-  social:
+  social: # https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer
     - icon: fontawesome/brands/github
       link: https://github.com/uqbn
-  # alternate: # https://squidfunk.github.io/mkdocs-material/setup/changing-the-language
-  #   #Switch to English
-  #   - name: English
-  #     link: /en/
-  #     lang: en
   version: # https://squidfunk.github.io/mkdocs-material/setup/setting-up-versioning
     default: latest
 
