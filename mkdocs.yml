@@ -161,8 +161,7 @@ extra_javascript:
   - js/tablesort.js
 
 nav:
-  - 介绍:
-    - index.md
+  - index.md
   - 内容:
     - lab1.md
     - lab2.md
